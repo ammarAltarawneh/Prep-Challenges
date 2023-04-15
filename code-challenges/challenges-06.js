@@ -12,12 +12,8 @@
 //  
 
 const findMax = (arr)=>{
-    let max = arr[0];
-    for(let i = 0; i<arr.length; i++){
-        if(max<arr[i]){
-            max = arr[i];
-        }
-    }
+    let max;
+    // write your code here
     return max;
 }
 // -------------------------------------------------------------------------------------------------------
@@ -34,12 +30,8 @@ const findMax = (arr)=>{
 //  
 
 const sumNums = (arr)=>{
-    let sum = 0;
-    for(let i = 0; i<arr.length; i++){
-        if (typeof arr[i] === 'number') {
-            sum += arr[i];
-        }
-    }
+    let sum;
+    // write your code here
     return sum;
 }
 // -------------------------------------------------------------------------------------------------------
@@ -55,11 +47,7 @@ const sumNums = (arr)=>{
 // Output: ['Python','Ruby','JS','C#']
 
 const reverseArray = (arr)=>{
-    let newArr = [];
-    for(let i = 0; i < arr.length; i++){
-        newArr.unshift(arr[i]);  
-    }
-    return newArr; 
+    // write your code here
 }
 // -------------------------------------------------------------------------------------------------------
 
