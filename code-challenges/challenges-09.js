@@ -41,10 +41,10 @@ const arrInc = (arr) => {
 // 
 const roundDecimals = (arr) => {
     const result = [];
-  arr.forEach(num => {
-    result.push(Math.round(num));
-  });
-  return result;
+    arr.forEach(num => {
+      result.push(Math.round(num));
+    });
+    return result;
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -114,7 +114,7 @@ const roundDecimals = (arr) => {
 
 const employeesBonus = (arr) => {
     arr.forEach(employee => {
-        if (employee.section === "Production" && employee.workHours > 8) {
+        if (employee.workHours > 8) {
           employee.salary = (parseInt(employee.salary) + 100) + "$";
         } else {
           employee.salary = (parseInt(employee.salary) + 50) + "$";
